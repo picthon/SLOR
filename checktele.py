@@ -271,10 +271,10 @@ async def _(event):
                     await Tepthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر تــيـبثـون
+𝗦𝗟𝗢𝗥 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر سـلـور
 ꪊ𝘴ꫀ𝘳  : @{username}        
-ᥴꫝ  / @Tepthon 
-@PPF22
+ᥴꫝ  / @SLOR5 
+@SLOR2
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -331,10 +331,10 @@ async def _(event):
                         await Tepthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر تــيـبثـون
+𝗦𝗟𝗢𝗥 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر سـلـور
 ꪊ𝘴ꫀ𝘳  : @{username}        
-ᥴꫝ  / @Tepthon
-@PPF22
+ᥴꫝ  / @SLOR5
+@SLOR2
 
     ''')
                         break
@@ -366,10 +366,10 @@ async def _(event):
                 await Tepthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر تــيـبثـون
+𝗦𝗟𝗢𝗥 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر سـلـور
 ꪊ𝘴ꫀ𝘳 : @{username}        
-ᥴꫝ  / @Tepthon
-@PPF22
+ᥴꫝ  / @SLOR5
+@SLOR2
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
