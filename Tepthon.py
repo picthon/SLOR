@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-   1260465030,
+   6009555783,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,8 +61,8 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await Tepthon(JoinChannelRequest("@Tepthon"))
-        await Tepthon(JoinChannelRequest("@Tepthon_Help"))
+        await Tepthon(JoinChannelRequest("@SLOR5"))
+        await Tepthon(JoinChannelRequest("@SLOR5"))
     except BaseException:
         pass
 
@@ -76,16 +76,16 @@ async def _(event):
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - جاري الفحص....")
+    await event.edit("𝗦𝗟𝗢𝗥 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر تــيـبثـون
-☆ VERSION : 3.3
+**𝗦𝗟𝗢𝗥 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر سـلـور
+☆ VERSION : 1.0
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 : @Tepthon**
+☆ 𝗦𝗟𝗢𝗥 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 : @SLOR5**
 
 -قـم بإرسال `.الاوامر`
 ''')
@@ -115,12 +115,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 1041483862
+ownerhson_id = 6009555783
 @Tepthon.on(events.NewMessage(outgoing=False, pattern='فزعه'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك حلم ابشر  @H_P_K')
+        order = await event.reply('هنا يمك سلور ابشر  @SLOR2)
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -132,7 +132,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Tepthon.get_entity(bot_username)
-        await Tepthon.send_message('@zmmbot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await Tepthon.send_message('@zmmbot', 'جاري التجميع بواسطة | انتظر قليلا')
         channel_entity = await Tepthon.get_entity(bot_username)
         await Tepthon.send_message('@zmmbot', '/start')
         await asyncio.sleep(5)
@@ -151,7 +151,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await Tepthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
+                await Tepthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | انتهاء")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -177,7 +177,7 @@ async def _(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Tepthon.get_entity(bot_usernamee)
-        await Tepthon.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | SOMY TEAM')
+        await Tepthon.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | انتظر قليلا')
         channel_entity = await Tepthon.get_entity(bot_usernamee)
         await Tepthon.send_message('@A_MAN9300BOT', '/start')
         await asyncio.sleep(5)
@@ -196,7 +196,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await Tepthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
+                await Tepthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | انتهاء")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -235,7 +235,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5159123009,
+    6009555783,
 ]
 
 def calc(num1, num2, fun):
@@ -388,7 +388,7 @@ async def spammer(event):
     
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل |حلم
+      await event.reply("""السـورس يعمـل |سلور
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
@@ -398,7 +398,7 @@ async def _(event):
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""حلم : @RRJRJ"""
+      await event.reply("""سلور : @SLOR2"""
 )
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
